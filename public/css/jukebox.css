@@ -1,0 +1,23 @@
+/* Global Reset */
+
+h3{
+    box-sizing: border-box;
+}
+/* Start  styling the page */
+.container-audio {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #393939;
+    color: #ffffff;
+    margin: 10px auto;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+audio {
+    width:100%;
+}
+audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
+    margin: 0;
+}
